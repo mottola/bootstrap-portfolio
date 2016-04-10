@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans); /* Allows use of chosen Google Font */
+
+body {
+    font-family: 'Josefin Sans', sans-serif; /* Applies our chosen font to everything in the body of our html */
+/*    background-image: linear-gradient(to bottom,#cecece 0,#6d6d6d 100%);*/
+    background-image: url(images/background.jpg);
+}
+.nav.navbar-nav.glyph {
+    float: right;
+    position: top;
+}
+.fa {
+    font-size: large;
+    
+}
+.jumbotron.jumbo1 {
+    background-image: linear-gradient(to bottom, #3c3c3c 0,#222 0%);
+    text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+    color: #b8b8b8;
+}
+.jumbotron.jumbo1 p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.jumbotron.jumbo1 ul {
+    display: block;
+    float: right;
+    text-align: center;
+    list-style-type: none;
+}
+.jumbotron.jumbo1 ul li {
+    padding: 5px;
+    text-align: center;
+}
+
+.jumbotron.jumbo1 h3 {
+    border-bottom: 2px solid #b8b8b8;
+}
+
+.glyph-pad {
+    padding-right: 10px;
+}
+#portrait {
+    border-radius: 50px;
+    float: right;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.jumbotron.jumbo1 ul li i {
+    margin-left: 10px;
+    font-variant: small-caps;
+}
+
