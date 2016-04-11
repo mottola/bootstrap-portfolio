@@ -1,7 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Varela+Round); /* Allows use of chosen Google Font */
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans); /* Allows use of chosen Google Font */
 
 body {
-    font-family: 'Varela Round', sans-serif; /* Applies our chosen font to everything in the body of our html */
+    font-family: 'Josefin Sans', sans-serif; /* Applies our chosen font to everything in the body of our html */
 /*    background-image: linear-gradient(from bottom,#1e162c 0,#4e4e4e 100%);*/
 /*    background-image: url(images/background.jpg);*/
 /*    background-color: rgba(211, 211, 211, 0.25);*/
@@ -14,7 +14,7 @@ body {
     margin-bottom: 40px;
 }
 .nav.navbar-nav.glyph {
-    float: right !important;   
+    float: right;   
 }
 .fa {
     font-size: large;
@@ -47,9 +47,11 @@ body {
     border-bottom: 1px solid #b8b8b8;
     border-radius: 8%;
 }
+/*
 .glyph-pad {
     padding-right: 10px;
 }
+*/
 #portrait {
     float: right;
     padding: 24px;
@@ -71,10 +73,16 @@ body {
     font-size: large;
     margin-left: 50px;
 }
-.container.footer {
+.footer {
     text-align: center !important;
-    font-size: 18px !important;
+    font-size: 14px !important;
     font-variant: small-caps !important;
+    color: #b8b8b8;
+}
+#center {
+    text-align: center;
 }
 
-
+.navbar.navbar-inverse.navbar-static-top.fixed {
+    position: fixed;
+}
